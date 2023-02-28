@@ -74,7 +74,7 @@ export const Banner = () => {
                     <br></br>{`Web Developer`}
                   </h1>
                   <p>
-                    Personable and passionate web developer with a background in
+                    Personable and passionate creator and web developer with a background in
                     accommodations and customer service and a full stack
                     certificate from University of California, San Diego. I have
                     honed my skills in JavaScript, React, SQL, Express and Node

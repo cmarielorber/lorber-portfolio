@@ -260,7 +260,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner h1 p {
-  color:#fff;
+  color:#666;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -269,14 +269,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #666;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #666;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -316,6 +316,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
   background-image: url('./assets/img/contact-bg.png');
+
 }
 
 .skill-bx {
@@ -330,7 +331,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #666;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -360,7 +361,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #666;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -382,7 +383,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
-  color: #fff;
+  color: #6d9886;
   width: 100%;
   font-size: 17px;
   letter-spacing: 0.8px;
@@ -535,7 +536,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #666;
   width: 0;
   height: 100%;
   position: absolute;

@@ -31,7 +31,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Technical Skills</h2>
-                        <p>Below are some of the skills I have obtained through UCSD's Full-Stack Bootcamp.<br></br>To master these skills, I self-teach with platforms such as Codecademy, Udemy, and YouTube videos, and create personal projects to add to my portfolio.</p>
+                        <p>Below are some of the skills I have obtained through UCSD's Full-Stack Bootcamp.<br></br>To master these skills, I use platforms such as Codecademy, Udemy, and YouTube videos, and create personal projects to add to my portfolio.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={plant} alt="skills 1" />
