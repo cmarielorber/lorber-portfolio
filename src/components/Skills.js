@@ -1,6 +1,4 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import plant from "../assets/img/plant.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -32,31 +30,63 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <h2>Technical Skills</h2>
+                        <p>Below are some of the skills I have obtained through UCSD's Full-Stack Bootcamp.<br></br>To master these skills, I self-teach with platforms such as Codecademy, Udemy, and YouTube videos, and create personal projects to add to my portfolio.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="skills 1" />
-                                <h5>Web Development</h5>
+                                <img src={plant} alt="skills 1" />
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="skills 2" />
-                                <h5>Brand Identity</h5>
+                                <img src={plant} alt="skills 2" />
+                                <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="skills 3" />
-                                <h5>Logo Design</h5>
+                                <img src={plant} alt="skills 3" />
+                                <h5>HTML 5</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="skills 4" />
-                                <h5>Web Development</h5>
+                                <img src={plant} alt="skills 4" />
+                                <h5>SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>NoSQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>MongoDB</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>MySQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>Express</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>jQuery</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>CSS3</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>Node</h5>
+                            </div>
+                            <div className="item">
+                                <img src={plant} alt="skills 4" />
+                                <h5>Design</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left"  alt="background gradient" />
+
     </section>
   )
 }

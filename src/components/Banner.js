@@ -5,6 +5,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -22,6 +23,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text]);
 
   const tick = () => {
@@ -85,9 +87,9 @@ export const Banner = () => {
                     technical skills to a company to grow and become a valuable
                     asset.
                   </p>
-                  <button onClick={() => console.log("resume")}>
+                  <button onClick={() => window.location.href = "https://drive.google.com/file/d/1XN98NATAVt7aBAcViCsRHQqH8CkOjSSB/view?usp=share_link"}>
                     Resume <ArrowRightCircle size={25} />
-                  </button>
+                  </button> 
                 </div>
               )}
             </TrackVisibility>
