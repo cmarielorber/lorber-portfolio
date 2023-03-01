@@ -27,6 +27,8 @@ This portfolio was was bootstrapped with [Create React App](https://github.com/f
 
 ## Screenshots
 
+![cmarielorber github io_lorber-portfolio_](https://user-images.githubusercontent.com/109984761/222228003-55a38d32-cdac-40be-b2c5-69d317c2f08f.png)
+
 ## Acceptance Criteria
 GIVEN a single-page application portfolio for a web developer   
 WHEN I load the portfolio   
