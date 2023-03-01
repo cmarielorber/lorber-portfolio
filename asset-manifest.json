@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lorber-portfolio/static/css/main.640fb030.css",
-    "main.js": "/lorber-portfolio/static/js/main.128f8422.js",
+    "main.css": "/lorber-portfolio/static/css/main.e668d8df.css",
+    "main.js": "/lorber-portfolio/static/js/main.3d0c3036.js",
     "static/js/787.79e47122.chunk.js": "/lorber-portfolio/static/js/787.79e47122.chunk.js",
     "static/media/contact-bg.png": "/lorber-portfolio/static/media/contact-bg.34d7b53e1fd2e03a5362.png",
     "static/media/banner-bg.png": "/lorber-portfolio/static/media/banner-bg.aa940d344223fb76a4a6.png",
@@ -21,15 +21,15 @@
     "static/media/revicons.woff": "/lorber-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/lorber-portfolio/static/media/logo.633b6f889d22692fbcb8c6c7d669be5a.svg",
     "static/media/plant.svg": "/lorber-portfolio/static/media/plant.ef84fb12e4c19028636acd851cbb56b0.svg",
-    "static/media/nav-icon2.svg": "/lorber-portfolio/static/media/nav-icon2.c02a5c56fc5bf20d2a806e5ba313b132.svg",
+    "static/media/nav-icon2.svg": "/lorber-portfolio/static/media/nav-icon2.2c935c9dec630d5f2afd31f4b3b2ed56.svg",
     "index.html": "/lorber-portfolio/index.html",
-    "static/media/nav-icon1.svg": "/lorber-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.640fb030.css.map": "/lorber-portfolio/static/css/main.640fb030.css.map",
-    "main.128f8422.js.map": "/lorber-portfolio/static/js/main.128f8422.js.map",
+    "static/media/nav-icon1.svg": "/lorber-portfolio/static/media/nav-icon1.96177d580861c357b3c759c4e3a5e6a5.svg",
+    "main.e668d8df.css.map": "/lorber-portfolio/static/css/main.e668d8df.css.map",
+    "main.3d0c3036.js.map": "/lorber-portfolio/static/js/main.3d0c3036.js.map",
     "787.79e47122.chunk.js.map": "/lorber-portfolio/static/js/787.79e47122.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.640fb030.css",
-    "static/js/main.128f8422.js"
+    "static/css/main.e668d8df.css",
+    "static/js/main.3d0c3036.js"
   ]
 }
