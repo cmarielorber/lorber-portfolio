@@ -107,6 +107,11 @@ export const Contact = () => {
                           <span>{buttonText}</span>
                         </button>
                       </Col>
+                      <input
+                        name="_next"
+                        type="hidden"
+                        value="https://cmarielorber.github.io/lorber-portfolio/"
+                      />
                       {status.message && (
                         <Col>
                           <p
