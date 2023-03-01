@@ -108,7 +108,7 @@ export const Contact = () => {
                         </button>
                       </Col>
                       <input
-                        name="_next"
+                        name="_url"
                         type="hidden"
                         value="https://cmarielorber.github.io/lorber-portfolio"
                       />
