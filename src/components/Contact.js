@@ -110,7 +110,7 @@ export const Contact = () => {
                       <input
                         name="_next"
                         type="hidden"
-                        value="https://cmarielorber.github.io/lorber-portfolio/"
+                        value="https://cmarielorber.github.io/lorber-portfolio"
                       />
                       {status.message && (
                         <Col>
