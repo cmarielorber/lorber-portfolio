@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lorber-portfolio/static/css/main.e668d8df.css",
-    "main.js": "/lorber-portfolio/static/js/main.c992fa5e.js",
+    "main.js": "/lorber-portfolio/static/js/main.3d0c3036.js",
     "static/js/787.79e47122.chunk.js": "/lorber-portfolio/static/js/787.79e47122.chunk.js",
     "static/media/contact-bg.png": "/lorber-portfolio/static/media/contact-bg.34d7b53e1fd2e03a5362.png",
     "static/media/banner-bg.png": "/lorber-portfolio/static/media/banner-bg.aa940d344223fb76a4a6.png",
@@ -25,11 +25,11 @@
     "index.html": "/lorber-portfolio/index.html",
     "static/media/nav-icon1.svg": "/lorber-portfolio/static/media/nav-icon1.96177d580861c357b3c759c4e3a5e6a5.svg",
     "main.e668d8df.css.map": "/lorber-portfolio/static/css/main.e668d8df.css.map",
-    "main.c992fa5e.js.map": "/lorber-portfolio/static/js/main.c992fa5e.js.map",
+    "main.3d0c3036.js.map": "/lorber-portfolio/static/js/main.3d0c3036.js.map",
     "787.79e47122.chunk.js.map": "/lorber-portfolio/static/js/787.79e47122.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e668d8df.css",
-    "static/js/main.c992fa5e.js"
+    "static/js/main.3d0c3036.js"
   ]
 }
