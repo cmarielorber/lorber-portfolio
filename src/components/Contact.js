@@ -3,45 +3,36 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/hand-img.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import emailjs from "emailjs-com";
+import React, { useRef } from "react";
 
 export const Contact = () => {
-  const formInitialDetails = {
-    name: "",
-    email: "",
-    message: "",
+  const form = useRef();
+  const [confirmationMessage, setConfirmationMessage] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_hhq38nq",
+        "template_rwfi2hd",
+        form.current,
+        "-FKEUDimW52hHbBAt"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setConfirmationMessage("Your email has been sent!")
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    form.current.reset();
   };
-  const [formDetails, setFormDetails] = useState(formInitialDetails);
+
   // eslint-disable-next-line no-unused-vars
   const [buttonText, setButtonText] = useState("Send");
-  // eslint-disable-next-line no-unused-vars
-  const [status, setStatus] = useState({});
-
-  const onFormUpdate = (e) => {
-    setFormDetails({
-      ...formDetails,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setButtonText("Sending...");
-  //   let response = await fetch("http://localhost:5000/contact", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json;charset=utf-8",
-  //     },
-  //     body: JSON.stringify(formDetails),
-  //   });
-  //   setButtonText("Send");
-  //   let result = await response.json();
-  //   setFormDetails(formInitialDetails);
-  //   if (result.code === 200) {
-  //     setStatus({ succes: true, message: 'Message sent successfully'});
-  //   } else {
-  //     setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
-  //   }
-  // };
 
   return (
     <section className="contact" id="connect">
@@ -69,18 +60,13 @@ export const Contact = () => {
                   }
                 >
                   <h2>Get In Touch</h2>
-                  <form
-                    action="https://formsubmit.co/christenmlorber@gmail.com"
-                    method="POST"
-                  >
+                  <form ref={form} onSubmit={sendEmail}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input
                           name="name"
                           type="text"
-                          value={formDetails.name}
                           placeholder="Name"
-                          onChange={onFormUpdate}
                           required
                         />
                       </Col>
@@ -88,9 +74,7 @@ export const Contact = () => {
                         <input
                           name="email"
                           type="email"
-                          value={formDetails.email}
                           placeholder="Email Address"
-                          onChange={onFormUpdate}
                           required
                         />
                       </Col>
@@ -98,33 +82,23 @@ export const Contact = () => {
                         <textarea
                           name="message"
                           rows="6"
-                          value={formDetails.message}
                           placeholder="Message"
-                          onChange={onFormUpdate}
                           required
                         ></textarea>
                         <button type="submit">
                           <span>{buttonText}</span>
                         </button>
                       </Col>
-                      <input
-                        name="_url"
-                        type="hidden"
-                        value="https://cmarielorber.github.io/lorber-portfolio/"
-                      />
-                      {status.message && (
+                      {confirmationMessage && (
                         <Col>
-                          <p
-                            className={
-                              status.success === false ? "danger" : "success"
-                            }
-                          >
-                            {status.message}
-                          </p>
+                          <p style={{ color: "#6d9886"}}
+                            className=
+                              "success">{confirmationMessage}</p>
                         </Col>
                       )}
                     </Row>
                   </form>
+                  
                 </div>
               )}
             </TrackVisibility>
