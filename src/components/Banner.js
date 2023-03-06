@@ -91,7 +91,7 @@ export const Banner = () => {
                   <button
                     onClick={() =>
                       (window.location.href =
-                        "https://drive.google.com/file/d/1XN98NATAVt7aBAcViCsRHQqH8CkOjSSB/view?usp=share_link")
+                        "https://drive.google.com/file/d/1IpYQPFz47mTmNfvMuAaPaZILo-3XGE0o/view?usp=share_link")
                     }
                   >
                     Resume <ArrowRightCircle size={25} />
