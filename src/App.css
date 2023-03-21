@@ -591,5 +591,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-bottom: 5px;
+  /* margin-top: 20px; */
+}
+
+.footer:hover p {
+  color: #ddb7ac;
+}
+
+.emailfont {
+  font-size: medium;
+  color: #b8b8b8;
 }

@@ -3,7 +3,15 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 // import navIcon3 from "../assets/img/nav-icon3.svg";
-
+// const styles ={
+//   copyright:{
+//     color: "#b8b8b8",
+//     fontSize: "15px",
+//     display: "flex",
+//     justifyContent: "center",
+//     alignText: "center",
+//   }
+// }
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -21,8 +29,9 @@ export const Footer = () => {
                 <img src={navIcon2} alt=" GitHub Icon" />
               </a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p className="emailfont">christenmlorber@gmail.com</p>
           </Col>
+          {/* <Row style={styles.copyright}>Copyright 2023. All Rights Reserved</Row> */}
         </Row>
       </Container>
     </footer>
