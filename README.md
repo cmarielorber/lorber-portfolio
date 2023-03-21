@@ -1,6 +1,6 @@
 # My React Portfolio
 
-This portfolio was was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is a space to not only display my projects while applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects. The portfolio was deployed using [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages).
+This portfolio was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is a space to not only display my projects while applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects. The portfolio was deployed using [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages).
 
 ## License
 
