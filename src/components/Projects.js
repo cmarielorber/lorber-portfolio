@@ -2,11 +2,11 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import React from "react";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/socal-logo.png";
-import projImg2 from "../assets/img/team-profile.png";
-import projImg3 from "../assets/img/beerstack-logo.png";
-import projImg4 from "../assets/img/weather-dashboard.png";
-import projImg5 from "../assets/img/mongodb.png";
-import projImg6 from "../assets/img/techblog.png";
+import projImg2 from "../assets/img/beerstack-logo.png";
+import projImg3 from "../assets/img/weather-dashboard.png";
+import projImg4 from "../assets/img/mongodb.png";
+import projImg5 from "../assets/img/parenthelperhub.png";
+// import projImg6 from "../assets/img/techblog.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -17,43 +17,49 @@ export const Projects = () => {
       description:
         "Using HTML, CSS, Canva, JavaScript, JQuery, Bootstrap, Postman; Brew Hopper is an interactive tool that allows our user to search for desired breweries in the San Diego area and turn their destination into a custom user bucket list at the top of the site using a toggle button.",
       imgUrl: projImg1,
-      url: "https://isaacagonzalez.github.io/Bootcamp-Project-1/",
-    },
-    {
-      title: "Team-Profile Generator",
-      description:
-        "This project demonstrates the use of Object-Oriented Programming (OOP) and Test Driven Development (TDD). The Team Profile Generator is a command-line-input application from Node that generates a team profile based on a user's input with the module Inquirer from Node.js. Once prompted, the user will enter however many team members they desire. Once the user's team is complete, an html is generated to display the team using the FS module.",
-      imgUrl: projImg2,
-      url: "https://github.com/cmarielorber/Team_Profile_Generator",
+      deployurl: "https://isaacagonzalez.github.io/Bootcamp-Project-1/",
+      githuburl: "https://github.com/cmarielorber/SoCal_Brew_Hopper/"
     },
     {
       title: "BeerStack",
       description:
         "BeerStack is designed to be a full-stack CMS-style blog site where it's user can interact with other users.",
-      imgUrl: projImg3,
-      url: "https://socal-beerstack.herokuapp.com/",
+      imgUrl: projImg2,
+      deployurl: "https://socal-beerstack.herokuapp.com/",
+      githuburl: "https://github.com/cmarielorber/BeerStack"
     },
     {
       title: "5-Day Weather Dashboard",
       description:
         "Using bootstrap, moment, JQuery and JavaSript; the Dashboard provides the user with a 5-Day weather report for their desired destination. The city is then stored on the page, using local storage, and can be revisted when clicked. OpenWeather API was used to retrieve the weather data for the cities.",
-      imgUrl: projImg4,
-      url: "https://cmarielorber.github.io/5-Day-Weather/",
+      imgUrl: projImg3,
+      deployurl: "https://cmarielorber.github.io/5-Day-Weather/",
+      githuburl: "https://github.com/cmarielorber/5-Day-Weather/"
     },
     {
       title: "NoSQL Social Network API",
       description:
         "This project is an API for a social network web application where users can share thoughts, reactions, create a friends' list and react their friend's thoughts. I used Express.js to route, MongoDB for a database, Mongoose Object Data Modeling library, Insomnia to seed data, and Moment.js to create timestamps.",
-      imgUrl: projImg5,
-      url: "https://github.com/cmarielorber/NoSQL-Social-Network-API",
+      imgUrl: projImg4,
+      deployurl:"https://drive.google.com/file/d/16U3zYYxq0xzxKisYLnMeoSPAC18kv5Wp/view",
+      githuburl: "https://github.com/cmarielorber/NoSQL-Social-Network-API",
     },
     {
-      title: "MVC Tech Blog",
+      title: "Parent Helper Hub",
       description:
-        "The Tech Blog is my first attempt at a full-stack CMS-style blog site where it's user can interact with other Tech users. Once login is authenticated, a user has access to their own dashboard where they can edit, delete and add posts and comments. The Tech Blog is structured with the MVC paradigm using handlebars, bcrypt, express.sessions, sequelize, and more to create an optimized blogging experience.",
-      imgUrl: projImg6,
-      url: "https://mvc-tech-blog-lorber.herokuapp.com/",
+        "Full-stack application with a user-friendly interface providing single parents with access to resources and support for both the parent and their children.",
+      imgUrl: projImg5,
+      deployurl: "https://parent-helper-hub.herokuapp.com/",
+      githuburl: "https://github.com/cmarielorber/parent-helper-hub/"
     },
+    // {
+    //   title: "MVC Tech Blog",
+    //   description:
+    //     "Full-stack CMS-style blog site where it's user can interact with other Tech users. Once login is authenticated, a user has access to their own dashboard where they can edit, delete and add posts and comments.",
+    //   imgUrl: projImg6,
+    //   deployurl: "https://parent-helper-hub.herokuapp.com/",
+    //   githuburl: "https://github.com/cmarielorber/MVC_Tech_Blog/"
+    // },
   ];
 
   return (
@@ -107,12 +113,6 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      {/* <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
