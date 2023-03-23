@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 import navicon2 from "../assets/img/nav-icon2.svg";
 
-const styles = {
+const styles = { 
   githubicon: {
     // position the github icon to upper right corner
     position: "absolute",
