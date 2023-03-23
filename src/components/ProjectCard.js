@@ -17,6 +17,7 @@ const styles = {
     padding: "5px",
   },
 };
+
 // return the JSX for 'Project' component
 // return (
 // <div className="col-sm-6 col-lg-4 mb-4">
