@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/lorber-portfolio/static/css/main.e668d8df.css",
-    "main.js": "/lorber-portfolio/static/js/main.f0473af3.js",
+    "main.css": "/lorber-portfolio/static/css/main.f2a6c4fd.css",
+    "main.js": "/lorber-portfolio/static/js/main.7d64169f.js",
     "static/js/787.79e47122.chunk.js": "/lorber-portfolio/static/js/787.79e47122.chunk.js",
     "static/media/contact-bg.png": "/lorber-portfolio/static/media/contact-bg.34d7b53e1fd2e03a5362.png",
     "static/media/banner-bg.png": "/lorber-portfolio/static/media/banner-bg.aa940d344223fb76a4a6.png",
     "static/media/socal-logo.png": "/lorber-portfolio/static/media/socal-logo.88bb1a8336aa815c2277.png",
+    "static/media/parenthelperhub.png": "/lorber-portfolio/static/media/parenthelperhub.5c6859bc098e0be70d06.png",
     "static/media/mongodb.png": "/lorber-portfolio/static/media/mongodb.1ad0b69b5cfe64989b9c.png",
     "static/media/CentraNo2-Bold.ttf": "/lorber-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/lorber-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/lorber-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/hand-img.png": "/lorber-portfolio/static/media/hand-img.391ad2dc17bdacb66db1.png",
     "static/media/weather-dashboard.png": "/lorber-portfolio/static/media/weather-dashboard.054cbd8df5e5efb56269.png",
-    "static/media/team-profile.png": "/lorber-portfolio/static/media/team-profile.35b49cecd6f8d3bc62d9.png",
-    "static/media/techblog.png": "/lorber-portfolio/static/media/techblog.1cb70cac574989457dbb.png",
     "static/media/beerstack-logo.png": "/lorber-portfolio/static/media/beerstack-logo.99ad64c9ce3a6d28f476.png",
     "static/media/boho-logo.svg": "/lorber-portfolio/static/media/boho-logo.e17119bf8d908862416489c6eb48b7a5.svg",
     "static/media/revicons.eot": "/lorber-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -21,15 +20,15 @@
     "static/media/revicons.woff": "/lorber-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/lorber-portfolio/static/media/logo.633b6f889d22692fbcb8c6c7d669be5a.svg",
     "static/media/plant.svg": "/lorber-portfolio/static/media/plant.ef84fb12e4c19028636acd851cbb56b0.svg",
-    "static/media/nav-icon2.svg": "/lorber-portfolio/static/media/nav-icon2.2c935c9dec630d5f2afd31f4b3b2ed56.svg",
     "index.html": "/lorber-portfolio/index.html",
+    "static/media/nav-icon2.svg": "/lorber-portfolio/static/media/nav-icon2.2c935c9dec630d5f2afd31f4b3b2ed56.svg",
     "static/media/nav-icon1.svg": "/lorber-portfolio/static/media/nav-icon1.96177d580861c357b3c759c4e3a5e6a5.svg",
-    "main.e668d8df.css.map": "/lorber-portfolio/static/css/main.e668d8df.css.map",
-    "main.f0473af3.js.map": "/lorber-portfolio/static/js/main.f0473af3.js.map",
+    "main.f2a6c4fd.css.map": "/lorber-portfolio/static/css/main.f2a6c4fd.css.map",
+    "main.7d64169f.js.map": "/lorber-portfolio/static/js/main.7d64169f.js.map",
     "787.79e47122.chunk.js.map": "/lorber-portfolio/static/js/787.79e47122.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e668d8df.css",
-    "static/js/main.f0473af3.js"
+    "static/css/main.f2a6c4fd.css",
+    "static/js/main.7d64169f.js"
   ]
 }
